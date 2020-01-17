@@ -1,4 +1,4 @@
-Plotly.d3.csv("data.csv", function(err, rows){
+Plotly.d3.csv("data2.csv", function(err, rows){
 
   function unpack(rows, key) {
   return rows.map(function(row) { return row[key]; });
@@ -54,8 +54,8 @@ var Uganda = {
 var data = [Ethiopia,Kenya,Rwanda,Tanzania,Uganda];
 
 var layout = {
-  title: 'Availability of Latest Technology in Eastern African Countries',
+  title: 'Availability of Research and Training Services in Eastern African Countries',
 };
 
-Plotly.newPlot('graph1', data, layout);
+Plotly.newPlot('graph2', data, layout);
 })
