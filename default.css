@@ -59,6 +59,8 @@ a:hover
 	width: 1200px;
 }
 
+.
+
 /*********************************************************************************/
 /* Image Style                                                                   */
 /*********************************************************************************/
@@ -696,18 +698,18 @@ ul.contact li a.icon-rss:before
 	color: #FFFFFF;
 }
 
-.column1,  .column2,  
-{
-	width: 300px;
-	font-size: 1.5em;
-}
-
 .column1,  .column2
 {
 	float: left;
-	margin-right: 24px;
+	margin-left: 75px;
+	width: 500px;
 }
 
+.column-text
+{
+	font-size: 1.3em
+
+}
 
 #header-featured
 {
